@@ -1,0 +1,62 @@
+// git and github
+// installation of git
+// installation vscode
+// we checked whether we can access git from vscode terminal
+
+// GITHUB
+// layman term => github is like a google drive to store and manage our code files
+// we can store code files and image related to it and share with our partners or friends.
+
+// Technial term 
+// GITHUB is a version control system .
+// version control :it is a system which is responsible for managing our codebases, we can upload 
+ our code files, than we can also manage the changes to the code file, you can document about the 
+the codebase,you can also manage large scale projects or websites or other important informations.
+
+// Github => you go to google , github.com , signin and than you are in github homepage.
+// github : remote things
+
+
+// git => in your laptop ., this is local git 
+
+
+// first step : GITHUB
+// we are going to create a remote repository/folder with public access.
+
+// now we go to local, and create some folder .
+// we go to folder and in the address bar of that folder ,we write cmd
+//commmand prompt will open and than we write code .
+// We open VS code in that particular folder
+// created a text and python file
+
+// FOLDER LOCAL -LearningGit ====> REMOTE github Repsitory LearningGit
+
+// LOCAL git =========>>>>> github.com our account and repository
+
+// to write git commands , first way is to open cmd in the folder 
+// you can open vscode in the folder , than go to vscode terminal and than write the commands
+????? STARTING WITH GIT COMMAND
+
+// git init : it will create a .git hidden folder inside your main folder
+// .git hidden folder is empty ,it does not have any info.
+
+//git status : it will help you find out if files in your folder are being tracked by git or not
+
+// git add . : it will help you to add and track your files in git.
+
+// git commit -m "learning funcdamentals of git" : it tell git that whatever files you added are perfectly
+fine to be uploaded and i am commiting to this changes.
+
+// git remote add origin https://github.com/snehal-herovired/LearningGIt.git : it will establish
+a connection between local git and remote github.com repository.
+
+// git push origin master : it will push/upload our all code which we commited to remote repository.
+
+
+
+
+
+
+
+
+
