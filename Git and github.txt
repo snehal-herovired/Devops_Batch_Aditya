@@ -64,6 +64,34 @@ How to create a github branch ?
 To check how many branches are there already ?
 // git branches
 
+How to go to the new branch created ?
+// git checkout brachname  : git checkout develop
+
+// how to push our code now on newly created branch ?
+// git status
+// git add .
+// git commit -m "trying new branch"
+// git branch
+//git checkout branch_name
+// git push origin branch_name
+
+
+// how to clone others repository ??
+git clone https://github.com/snehal-herovired/LearningGIt.git
+
+//Collaboration ?
+there is single repository , 3 people are collaborator a,b,c
+// a person created 
+// b and c will clone it
+// a wotre a helloworld code he pushed .
+// b and c will do is they will pull the code
+// b wrote something , hello  , hepushed
+// a and c will do pull code again.
+// c will write test code somthing, push again
+
+// git push
+// git pull origin master
+
 
 
 
