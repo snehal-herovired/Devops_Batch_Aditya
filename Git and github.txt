@@ -53,6 +53,17 @@ a connection between local git and remote github.com repository.
 // git push origin master : it will push/upload our all code which we commited to remote repository.
 
 
+// topic advaced git concept: Branching and How to work in collaboration ?
+
+// Git Branching : branching is github is nothing a record of commits.
+
+How to create a github branch ?
+
+// git branch branch_name  : git branch develop
+
+To check how many branches are there already ?
+// git branches
+
 
 
 
