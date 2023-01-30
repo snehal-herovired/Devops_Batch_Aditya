@@ -1,0 +1,66 @@
+Virtualilzation and Linux 
+
+// start downloading and install  virtualbox
+
+// Virtualization 
+//It is the process with which you are using your phsyical computer hardware 
+more effectively.
+
+// hardware : 8gbram ,1tb of hard disk , 1os (windows)
+
+// it creates a virtual hardware for running a virtual os(linux);
+// ram, harddisk , processors => vitually
+
+//vmware, virtualbox to create a virtual enviorment;
+//8gb ram => 4 gb ram , 1tb hard disk  500gb OS (local) : 500gb(remaining) 
+
+
+// 4gb ram ,500gbb harddisk 
+
+// types : operating system virtualization , server virtualization => cloud computing 
+
+
+// Linux and its commands
+
+//Linux is a operating system kernel.
+// linux is cloning of Unix .
+// MacOS is baed on Unix.
+
+// Based on linux , you have various OS , ex : ubuntu
+
+
+
+// Linux directory structure or folder structure
+
+path for directory in linux is followed by : / :it referes to root directory
+/boot :boot loader file
+/etc  : configuration file 
+/home :user home directory
+/root :root home directory
+/bin :user binary files
+/sbin : system binary files
+/opt  : third party application
+/usr :user applications 
+
+
+// linux commands
+// cd : change directory
+   cd ../ : one folder above
+   cd ./ : same directory
+   cd directory_name : to that particular directory
+
+// pwd : present working directory :it gives the full/absolute path to current directory.
+// ls :listing  all files and folders inside a directory
+
+// mkdir : for making folder/directory
+// rmdir : for deleting directory
+
+// files : touch sample.txt 
+// how to read files : cat file_name
+// delete file : rm filename
+
+// how to write something in file : open editor such vi in that particaulr file
+// vi filename
+: i :- insert mode : write something inside 
+ :wq :- save and quite
+
