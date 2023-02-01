@@ -64,3 +64,9 @@ path for directory in linux is followed by : / :it referes to root directory
 : i :- insert mode : write something inside 
  :wq :- save and quite
 
+// man : manual command to check which modes are there in other commands
+ man cd : 
+
+// move command  : mv : for moving file from one direcotry to another and also used to rename files
+// copy command  : cp : cp source destination
+
