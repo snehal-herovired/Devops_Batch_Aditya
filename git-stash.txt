@@ -1,0 +1,1 @@
+Stash means to store (changes) safely in a hidden place (the stash stack)Stashing the current working directory's staged or unstaged changes or untracked files and then storing them in the stash stack reverts the current 
