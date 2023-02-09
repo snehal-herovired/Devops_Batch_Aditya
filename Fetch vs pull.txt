@@ -1,0 +1,9 @@
+git fetch it will just fetch all the changes in the remote repository (Github) and move the origin/master pointer to HEAD. 
+
+git pull, it will do basically fetch (as explained previously) and merge any new changes to your master branch and move the pointer to HEAD.
+So, git pull=git fetch + merge.
+
+command “git fetch <remote>” followed by “git merge <remote>”.
+
+ command “git pull <remote>”
+
