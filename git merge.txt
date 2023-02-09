@@ -1,0 +1,1 @@
+git merge command is used to merge the current branch with a target branch.
