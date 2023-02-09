@@ -1,1 +1,2 @@
 Stash used to store the files temporarily in hidden place for further uses,if stores the files without commiting.by using "git Stash pop" we restore the hidden files.
+..
