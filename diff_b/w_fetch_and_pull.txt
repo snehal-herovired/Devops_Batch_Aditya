@@ -1,0 +1,4 @@
+git fetch is a command that allows you to download files or objects from a remote repository.
+
+The git pull command is used to fetch and download content from a remote repository and 
+immediately update the local repository to match that content. 

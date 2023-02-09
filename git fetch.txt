@@ -1,0 +1,1 @@
+git fetch is a command which is used to download contents from a remote repository.
