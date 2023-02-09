@@ -1,0 +1,1 @@
+git reset is a command that is used to undo local changes to the state of a Git Repository.

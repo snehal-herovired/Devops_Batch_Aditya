@@ -1,0 +1,7 @@
+The awk command is used for text processing in Linux.
+
+AWK Operations: 
+(a) Scans a file line by line 
+(b) Splits each input line into fields 
+(c) Compares input line/fields to pattern 
+(d) Performs action(s) on matched lines 
