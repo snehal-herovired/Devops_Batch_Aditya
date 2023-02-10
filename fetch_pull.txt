@@ -1,0 +1,4 @@
+//fetch command is used to see the available changes in the repositary withot pulling it.
+
+// where as pull is command is used to pull the reomote repositary to local repositary which means all files/folders
+comes to our local local repositary.
