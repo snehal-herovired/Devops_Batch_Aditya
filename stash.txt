@@ -1,0 +1,2 @@
+//Git stash saves the uncommitted changes locally, allowing you to make changes, switch branches, and perform other Git operations.
+//we can then reapply the stashed changes when you need them. A stash is locally scoped and is not pushed to the remote by git push.
