@@ -1,0 +1,3 @@
+ GIT FETCH:
+============
+A primary command used to download contents from a remote repository

@@ -1,0 +1,6 @@
+hidden files in linux:
+======================
+ls –a
+
+The ls command lists the contents of the current directory. 
+The –a switch lists all files – including hidden files.

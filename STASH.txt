@@ -1,0 +1,3 @@
+GIT STASH:
+=========
+Stash means to store (changes) safely in a hidden place

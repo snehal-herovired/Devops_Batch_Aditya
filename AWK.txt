@@ -1,0 +1,4 @@
+AWK COMMAND
+===========
+The awk command's main purpose is to make information retrieval and text manipulation easy to perform in Linux.
+ This Linux command works by scanning a set of input lines in order and searches for lines matching the patterns specified by the user.

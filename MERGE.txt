@@ -1,0 +1,3 @@
+GIT MERGE:
+==========
+The "merge" command is used to integrate changes from another branch
