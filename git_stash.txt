@@ -1,4 +1,2 @@
-Git stash:
-----------
-        It is used to switch branches without committing the current branch.
-        Stash means to store changes safely in a hidden place 
+*It is used to switch branches without committing the current branch.
+*Stash means to store changes safely in a hidden place 

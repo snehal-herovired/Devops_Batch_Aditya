@@ -1,0 +1,2 @@
+*The git merge command is used to merge the branches. 
+*The syntax for the git merge command is as: $ git merge <query>

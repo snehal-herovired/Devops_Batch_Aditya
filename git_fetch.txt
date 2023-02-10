@@ -1,0 +1,2 @@
+*git fetch is a primary command used to download contents from a remote repository. 
+*The git fetch command downloads all branches, tags, and data from a project to the local machine. 
