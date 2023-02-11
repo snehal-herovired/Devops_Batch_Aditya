@@ -1,0 +1,6 @@
+//Git Stash:
+	Git stash saves the uncommitted changes locally, allowing you to make changes, switch branches, and perform other Git operations.
+	it helps when u want save the data temporyly(hidden) when switching from branches 
+	Git stash pop:
+		it will bring back the stashed data 
+	Git stash apply
