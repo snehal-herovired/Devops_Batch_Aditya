@@ -1,0 +1,23 @@
+Git stash :: It is temporarily saved the files.It is stored safely in a hidden place.
+             you have any important work to so ,in that time this command is used.
+             you can come back and re-apply them later on.
+
+Git merge :: It is used to integrate changes from another branch .It is the remote 
+             content refs and heads into a local merge commit.
+
+Git fetch :: It tells the local repository that there are changes available in the
+             remote repository without changes into the local repository. It is the 
+             copy of the remote changes in the local repository.
+
+Linux awk :: The awk command is a linux tool and programmimg language that allows 
+             users to process and manipulate data and produce formatted reports.
+             It is the advanced text processing.
+
+Git reset :: It is used to undo local changes to the state of a git repo. Reset is to
+             move the repository back to a previous commit.
+
+
+
+
+
+

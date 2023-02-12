@@ -1,0 +1,3 @@
+Hidden Files :: git directory with the command ls -a .The ls command lists
+                the current directory contents and by default will not show 
+                hidden files.
