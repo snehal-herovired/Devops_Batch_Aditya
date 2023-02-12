@@ -1,0 +1,6 @@
+git pull:-  we uploading the files from remote repository to 
+directly working repository.
+
+git fetch:-   we uploading the files from remote repository to 
+local repository.if we want upload these files into working 
+repository we use git merge.
