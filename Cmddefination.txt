@@ -1,0 +1,17 @@
+STASH COMMAND:
+The term stash means to store something in hidden place
+       (or)
+it is used for to switch from branch from one to other without comminting
+
+
+MERGE COMMAND:
+It is used to combine two branch
+
+FETCH COMMAND:
+It is used to download a content form a remote repository
+
+AWK COMMAND:
+Awk is a scripting language used for create repots and it doesnot require any
+variables,numeric functions and string functions
+
+//git reset
