@@ -1,0 +1,8 @@
+GIT STASH:
+
+
+  Git stashing is used to store data temporarily in Git without committing the code to the repository. 
+
+  Git stashing takes the incomplete state of our code, and save it temporarily for future purpose.
+
+  It is used to temporarily remove uncommited changes.

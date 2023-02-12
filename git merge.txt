@@ -1,0 +1,13 @@
+GIT MERGE:
+
+    It is  used to integrate changes from another branch. 
+
+    It  takes the contents of a source branch and integrates them with a target branch.
+
+Different types of merges:
+ 
+ 1.Fast Forward:
+
+ 2.Recursive:
+
+ 3.Resolve

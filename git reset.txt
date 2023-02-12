@@ -1,0 +1,3 @@
+GIT RESET:
+
+     Undo the local changes to the state of a git Repository, Restore the last commit.

@@ -1,0 +1,5 @@
+LINUX AWK:
+
+   Awk is mostly used for pattern scanning and processing.
+ 
+   It searches one or more files to see if they contain lines that matches with the specified patterns and then perform the associated actions.
