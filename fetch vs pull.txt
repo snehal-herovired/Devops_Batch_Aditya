@@ -1,0 +1,7 @@
+Git Ftech:
+
+	Gives the information of a new change from a remote repository without merging into the current branch.
+
+Git Pull:
+
+	Brings the copy of all the changes from a remote repository and merges them into the current branch.
