@@ -1,0 +1,4 @@
+GIT MERGE:
+           Git merge command is used to copy the files from one branch to another branch if we 
+           copy the files which is from the master branch to another branch then this command 
+           is used.

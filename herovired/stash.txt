@@ -1,0 +1,3 @@
+GIT STASH :  Git stash is used to hide the changes if you apply the git stash command and the modified can be 
+observed by using the command git stash apply. And git status apply command is used to konw that that the 
+changes in the modified file

@@ -1,0 +1,4 @@
+GIT FETCH:
+          git fetch command is used that pulling all the files from the  branches.for example if
+          there are 4 people colabrate with each other then if we use git fetch command then 
+          the collabtrates upoladed in this collabration is to observes.

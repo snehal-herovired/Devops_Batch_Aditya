@@ -1,0 +1,1 @@
+ls -a : The command used to find the hidden files in linux
