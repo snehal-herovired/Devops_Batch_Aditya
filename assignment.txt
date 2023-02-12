@@ -10,3 +10,7 @@ git merge:
 git merge command is used to merge two branches they are target and the source.
 fast forward merge:when there is no commits in target branch in the time of merging hen it is called fast forward merge.
 recursive merge:when there are commits in the target branch in the time of merging is called recursive merge.
+
+git fetch:
+=========
+git fetch command is used for download changes from remote repository,but those changes will not be autometically integrated to our work files it only show the changes with out merging.
