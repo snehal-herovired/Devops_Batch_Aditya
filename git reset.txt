@@ -1,0 +1,9 @@
+GIT RESET:
+
+it undo the changes to the local files,restore the last commit.
+
+
+git reset has 3 types:
+reset --soft
+reset --mixed
+reset --hard
