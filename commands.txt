@@ -1,6 +1,0 @@
-git stash:
-       git stash temperorily stores the current changes that made with our working branch.
-    ==>git stash
-        -->It helps us if we want to save the changes of present working directory and move to another working space. 
-    ==>git stash pop
-        -->if we come back to our working directory it retrive our changes that made before performing the command git stash

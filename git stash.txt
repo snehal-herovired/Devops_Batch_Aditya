@@ -1,0 +1,21 @@
+git stash:
+     Git has an area called stash where you can temperorily store a snapshot of your changes without committing them to the repository.
+     This functionility is helpful when you have made changes to a branch tha you aren't ready to commit but you have to switch the branch.
+     git stash temperorily stores the current changes that made with our working branch.
+
+commands:
+    ==>git stash
+        -->It helps us if we want to save the changes of present working directory and move to another working space. 
+    ==>git stash pop
+        -->Git allows the user to re-apply the previous commits by using git stash pop command. 
+        -->The popping option removes the changes from stash and applies them to your working file.
+    ==>git stash apply
+        -->You can re-apply the changes that you just stashed by using the git stash command.
+        -->In case of more than one stash, you can use "git stash apply" command followed by stash index id to apply the particular commit.
+        -->If we don't specify a stash, Git takes the most recent stash and tries to apply it.  
+
+    ==>The git stash pop command is quite similar to git stash apply. The main difference between both of these commands is stash pop command that deletes the stash from the stack after it is applied.
+    ==>git stash list
+       -->It help to check the stored stash
+    ==>git stash clear
+      --> it will delete the all stored stash
