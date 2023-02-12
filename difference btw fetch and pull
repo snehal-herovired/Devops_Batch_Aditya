@@ -1,0 +1,8 @@
+1)Git fetch is the command that tells the local repository that there are changes available in the remote 
+repository without bringing the changes into the local repository.
+2)Git pull on the other hand brings the copy of remote directory changes into the local repository
+
+3)Repository data is updates in the .git directory
+but in the case git pull, the local repository is updated directly
+
+4)in case of fetch there is no possibility of merge conflicts but in case of get pull there is a poosibility if the remote and the local repositories have done changes at the same place
