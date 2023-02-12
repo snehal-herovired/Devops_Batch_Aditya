@@ -1,0 +1,10 @@
+
+GIT FETCH:
+
+   It is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository.
+
+GIT PULL:
+   
+    It is used to fetch and Merge any commits from the tracking remote branch.
+    
+    It is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
