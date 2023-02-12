@@ -1,0 +1,40 @@
+GIT MERGE
+======
+git merge helps to merge 2 branches together so that all the files and commits made by one branch can be shared with the other
+
+//////////////////
+
+Difference between fetch and pull
+=================================
+Both git fetch and git pull commands are used to download the changes in the content from the remote repository
+
+GIT FETCH
+==========
+Git fetch command downloads the changes but will not execute anything it just specifies the changes in the remote repository to be
+downloaded
+
+GIT PULL
+========
+Git pull command  unlike git fetch directly downloads the changes without the specifying the changes and executes it.
+
+////////////////
+
+GIT RESET
+=========
+Git reset just deletes all the changes that to took place after the last commit
+for example my last commit was to a file and i saved it and added it to my local repository but now when i reset it and i give the command 
+git status it shows the file in red which indicates it is not added .We can also break a merge through this reset command
+
+///////////
+
+LINUX AWK COMMAND
+====================
+linux awk command helps us to print a part or even a line in the file withe help of {print} 
+
+////////////
+
+GIT STASH
+==================
+git stash command helps you to save a file without having commit to it
+
+///////////////
