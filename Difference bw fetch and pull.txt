@@ -1,0 +1,6 @@
+** Git fetch :: It is a safer alternative because it pulls in all the commits from your remote but 
+doesn't make any changes to your local file. It tells the local git to retrive of the commits.**
+
+** Git pull :: It is a faster ,when you performing multiple task at a time. 
+It is the copy of the remote directory changes into the local repository.**
+
