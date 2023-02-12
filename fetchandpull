@@ -1,0 +1,4 @@
+---difference between fetch and pull:
+
+>>> 'git pull' copy the contents from remote repository to local repository directly
+>>> 'git fetch' shows the new changes without merge directly,the repository data is updated in git
