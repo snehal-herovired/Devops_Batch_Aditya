@@ -1,0 +1,7 @@
+git stash:
+=========
+git status command is used for save changes in present working space in temporary memory when we want to move to another branch without commiting previous work into the repository. 
+git stash pop:it takes files from the stash place them back into the work space and delete the spash history.
+git stash apply:it takes files from the stash place them back into the work space and does not delete the spash history.
+git stash list:displays stash history
+git stash clear:delete stash history
