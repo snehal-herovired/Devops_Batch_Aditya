@@ -1,2 +1,2 @@
 # print a string
-print("hello")
+print("Hello world")
