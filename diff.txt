@@ -1,0 +1,5 @@
+difference between fetch and pull :
+            
+           fetch command is used to pull all the recent files and it is not to be safe as compared 
+           to pull command.pull command is used to pull the files which is at the particular 
+           branch as mentioned like git pull origin master:to pull the files from master branch

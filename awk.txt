@@ -1,0 +1,5 @@
+linux awk:
+  
+          awk command is used to read more lines and it is used for many purposes and it is used 
+          for reading and texting the grop names also
+ls -a:
