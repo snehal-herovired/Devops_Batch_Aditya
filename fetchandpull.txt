@@ -1,0 +1,7 @@
+git fetch: Gives the information of a new change from a remote repository without merging into the current branch. and 
+           Git fetch basically imports the commits to local branches as to keep data up-to-date that what everybody is working on.
+           command:- "" git fetch <remote> ""
+
+git pull:  Brings the copy of all the changes from a remote repository and merges them into the current branch. 
+           by using git pull we will face merge conflicts.
+           command:- "" git pull origin <branch name> ""
