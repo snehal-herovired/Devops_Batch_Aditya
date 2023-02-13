@@ -1,0 +1,2 @@
+The Linux operating system consists of hundreds of files and folders that are hidden by default. Such files are known as hidden files or dot files because they always begin with a dot (.)
+// we can see all hidden files in the os by using ls -all command
