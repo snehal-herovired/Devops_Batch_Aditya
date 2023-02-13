@@ -1,0 +1,54 @@
+Containization :
+
+1. what is containerization?
+2. what is the use of creating containers?
+3. what is difference bbetwenn creating container and creating vms?
+4. why creating containers is somewhat similar to creating vms?
+5.general difference between virtuailssation and containerization?
+6.why containers act as isolated environment?
+7. what is this isolated enironment in case of container and how multiple container can be 
+run indepently on host os?
+8.what is the benefit of using containers?
+9.why we hae different ips assigned to different conatiners running on same host ?
+
+
+
+// Docker 
+: Docker is a tool or application which enables us to create containers.
+
+// Docker : Docker desktop 
+: Docker desktop : server , engine : docker daemon
+                 : client , CLI ,apis
+                 : HUB ,docker hub
+
+// docker has client-server architecture :
+
+Dockerfile : recipe to create docker image
+
+FROM : it defines which service image to be used for your application
+WORKDIR : it defines the folder structure of the application inside the container and 
+where everything you download willbe .
+
+COPY file_which_contains_our_application_dependency.
+example : nodejs : package.json ,python_flask: requirements.txt
+
+RUN : it tells docker to perform installation of whatever is there in your dependecy file.
+
+COPY . . : it tells to copy all the stuff just got downladed and keep it in the desired folder structure
+
+EXPOSE : it tells docker that our application will run on port 3000 inside the container. 
+
+CMD : ["node","index.js"] : it tells docker to run this command in command line environment 
+to start the application
+
+
+
+Docker CLI commands :
+
+1. docker login :used for authenticating the user on docker.
+2. docker info : to look for information regarding docker.
+3. docker images : to look for available images in our docker.
+4. docker pull image_name : command to pull images from remote docker hub.
+5. docker images --help : --help is a mode to see list of other modes and infos related the command
+6. docker run  -it  _image_name |_imageID : to run the image and make a container.
+7. docke ps : will show the running containers
