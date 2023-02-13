@@ -14,4 +14,11 @@ AWK COMMAND:
 Awk is a scripting language used for create repots and it doesnot require any
 variables,numeric functions and string functions
 
-//git reset
+DIFFERENCE BETWEEN FETCH AND PULL:
+====================================
+both fetch and pull are used to download the changes in remote repository
+
+FETCH COMMAND:
+It is used to download a content form a remote repository
+ PULL COMMAND:
+ Git pull command unlike git fetch directly downloads the changes without the secipying the changes and executes it
