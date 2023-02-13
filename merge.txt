@@ -1,0 +1,3 @@
+// Git merge is used to merge the multiple commits into the single commits
+// by using commit we can merege the two different branches into the single branches.
+// if the branch A merged with the branch B the files contains in branch comes to the branch B.
