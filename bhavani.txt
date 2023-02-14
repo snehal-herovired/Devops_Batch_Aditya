@@ -1,2 +1,9 @@
-hi this is bhavani
-performing task on stash
+ Git Stash : stash command takes uncommitted changes(both staged and unstaged),and saves them away for later useandthen reverts them from our working copy
+* git stash command enables you to switch branches without committing the current branch.
+  
+some useful commands:
+* git stash
+* git stash list
+* git stash apply
+* git stash drop
+* git stash pop
