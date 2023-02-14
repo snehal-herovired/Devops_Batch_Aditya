@@ -1,0 +1,8 @@
+The difference between gitfetch and git pull is:
+
+*  git fetch command just fetches all the changes in the remote repositoryand move the origin to a head where as local branch will keep pointing to where it
+has .
+
+*  git pull basically fetch and merge any new changes to master branch and move the pointer to head
+
+*  git pull =git fetch + merge
