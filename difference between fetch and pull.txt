@@ -5,10 +5,9 @@
 
 fetch :
 	 it is used to retrieves the data from a remote repository but does not merge it into the local repository. 
-	It allows you to see what changes have been madeand interact with a remote repository without affecting your local repository 
+	It allows you to see what changes have been made and interact with a remote repository without affecting your local repository 
 
 
 
 pull:
-	it is used to retrieves the data from a remote 
-repository and merge it into local repository.
+	it is used to retrieves the data from a remote repository and merge it into local repository.
