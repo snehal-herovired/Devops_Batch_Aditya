@@ -1,0 +1,15 @@
+1.docker login
+2.check docker images
+3.docker pull python : downloading python images
+4.docker images checking: check whether python file is downloaded or not
+5.now reach to the location of the pythonflask
+6.then use docker build -t tag_name . : to give the tag tag_name
+7.create repository by reaching to the hub.docker.com in chrome search
+8.the copy the docker_id/repository_name
+9.then use docker tag tag_name:tag paste the step 8
+10.then check docker images
+11.then use docker push paste step 8 : then push the tag_file image to the repository
+12.now open docker file in pythonflask and check the port number
+13.then use docker run -d -p port_number:given_port_number
+14.then check localhost:given_port_number
+15.then open docker desktop and check whether it is running or not 
