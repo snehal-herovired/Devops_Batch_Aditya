@@ -1,0 +1,2 @@
+//gitmerge:merges the provided branch with the current working branch
+syntax:git merge branch-name

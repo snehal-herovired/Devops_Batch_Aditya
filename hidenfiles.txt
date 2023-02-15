@@ -1,0 +1,2 @@
+//to shows hidden files we use ls -al command 
+it means long listing of files and folders in linux

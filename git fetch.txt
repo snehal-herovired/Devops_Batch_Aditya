@@ -1,0 +1,1 @@
+//git fetch command is used to download contents from a remote repositry and it pulls all the commits without any changes to our local files
