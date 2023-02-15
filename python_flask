@@ -1,0 +1,5 @@
+*FROM: It defines which server image to be used for your application
+*WORKDIR: Itdefines the folder structure of the application inside the container
+*COPY: To copy alll the stuff just got downloaded
+*RUN: It runs the particular application
+*EXPOSE: It tells docker that our application will run on port 3000 inside the container
