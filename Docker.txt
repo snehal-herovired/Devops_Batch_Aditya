@@ -1,0 +1,12 @@
+Containization :
+
+1. what is containerization?
+2. what is the use of creating containers?
+3. what is difference bbetwenn creating container and creating vms?
+4. why creating containers is somewhat similar to creating vms?
+5.general difference between virtuailssation and containerization?
+6.why containers act as isolated environment?
+7. what is this isolated enironment in case of container and how multiple container can be 
+run indepently on host os?
+8.what is the benefit of using containers?
+9.why we hae different ips assigned to different conatiners running on same host ?
