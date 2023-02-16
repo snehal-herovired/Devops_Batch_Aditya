@@ -1,0 +1,7 @@
+The git fetch command retrieves commits, files, branches, and tags from a remote repository. The general syntax for command is:
+
+git fetch <options> <remote name> <branch name>
+WORKING::
+Remote repo------>*git fetch ---->localrepo---->*git merge---->working directory(*git pull)
+->MERGE::
+Merging in git is the process of connecting forked history. That facilitates the joining of two branch histories into one main. When you finish working with all the relevant commits for your active repository, git allows you to merge all into the main branch. 

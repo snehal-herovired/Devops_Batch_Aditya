@@ -1,0 +1,14 @@
+Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. Git Pull on the other hand brings the copy of the remote directory changes into the local repository.
+A git pull function transfers and merge the upstream metadata into the local active repository.
+
+git pull = git fetch + git merge
+## checkout to your branch
+git checkout mybranch
+
+## fetch the changes
+git fetch
+## checkout to your branch
+git checkout mybranch
+
+## fetch the changes
+git fetch

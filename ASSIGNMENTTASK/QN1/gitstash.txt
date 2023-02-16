@@ -1,0 +1,29 @@
+The git stash command saves a copy of your uncommitted changes in a queue, off to the side of your project.
+git stash list [<options>]
+git stash show [<stash>]
+git stash drop 
+git stash ( pop | apply ) 
+git stash branch <branchname> [<stash>]
+# Your changes before stashing
+git add . 
+
+# Store the changes (stash)
+git stash save "Saving changes from edit this file" 
+
+# List stashed changes
+git stash list 
+
+# At this stage your local repo is clean
+git status 
+
+# To undo stash by popping the stash
+git stash pop 
+
+# Verify if the stash was popped
+git stash list 
+
+# Verify the pending changes before stash was done
+git status
+
+WORKING:
+LOCAL REPOSITORY------>STAGING AREA------>WORKING DIRECTORY

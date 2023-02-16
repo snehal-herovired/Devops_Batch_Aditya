@@ -1,0 +1,16 @@
+Awk is a scripting language used for manipulating data and generating reports. The awk command programming language requires no compiling and allows the user to use variables, numeric functions, string functions, and logical operators. 
+syntax:::
+awk options 'selection _criteria {action }' input-file > output-file
+Example: 
+
+Consider the following text file as the input file for all cases below: 
+
+$cat > employee.txt 
+ajay manager account 45000
+sunil clerk account 25000
+varun manager sales 50000
+amit manager account 47000
+tarun peon sales 15000
+deepak clerk sales 23000
+sunil peon sales 13000
+satvik director purchase 80000 
