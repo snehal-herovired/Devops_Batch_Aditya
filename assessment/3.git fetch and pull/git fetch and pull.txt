@@ -1,0 +1,18 @@
+Both git fetch and git pull commands are used to download the changes in the content from the remote repository
+
+GIT FETCH
+==========
+Git fetch command downloads the changes but will not execute anything it just specifies the changes in the remote repository to be
+downloaded.
+
+GIT PULL
+========
+Git pull command  unlike git fetch directly downloads the changes without the specifying the changes and executes it(merges it with our branch).
+
+EXAMPLE
+-------
+Here in the screenshot i have first created a file in master branch and commited to it.
+Then pushed it into the remote repository and made some changes to it and commited there.
+After which i have used the command "git fetch" and i have seen that there are changes in the file but those are not exceuted yet.
+Then i have used the "got pull " command to merge those changes into my file.
+ 

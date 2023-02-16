@@ -1,0 +1,19 @@
+GIT MERGE
+-----------
+Through git merge command we can mrege one branch into another.So all the files can be transferred to our desired branch.
+Example
+-------
+Here in the screenshot have merged branch "b1" into branch b2.
+Initially I have created two text files in both the branches named h.txt and c.txt.
+Then i have added content to those files through vi editor and added the files and commited to them as well.
+Now i went to the branch into which i wanted to merge the file(b2) and simply gave the command "git merge b1".
+With this all the content in the branch b1 are merged into branch b2.
+
+GIT FETCH
+----------
+Through git fetch command we can fetch any changes in the remote repository we want to add into our local repository.
+EXAMPLE
+--------
+Here in the remote repository there are some changes and i want to download it into my local git .
+For that I have used the command "git fetch <link of remote repository>"
+Through this all the changes are downloaded in my local git.

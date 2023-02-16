@@ -1,0 +1,12 @@
+GIT STASH
+==========
+Git stash command is used to stash or save the file in which some changes are done and we are not ready to commit for then yet.
+There are various commands which are used as extention with git stash like "git stash list ","git stash apply " etc.
+
+EXAMPLE:
+-------
+In the example from the screenshot i was first there in the master branch where I have created a file e.txt.
+I have added and stashed it in that particular branch and didnot commit it.
+I have made some changes in the e.txt file and then again stashed it using "git stash " command now i have moved to another branch named "sravya".
+Now when i give the command "git stash list", i can see all of the stashes i have done in that branch.
+There is another command called "git stash apply 0" with this command we will be able to see the first stash we have made(save).
