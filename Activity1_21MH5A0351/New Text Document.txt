@@ -1,0 +1,19 @@
+
+
+//git stash-->git stash helps to save the data tempororily in hidden manner when switching between branches 
+
+//git stash pop -->will bring back the data
+
+//git merge--> merge is used to intigrate the 2 branches for exchanging files form one branch to each other , git merge is used to combine two branches
+
+//git fetch-->git fetch is used to pull the all updates form remote repository 
+
+//git pull==git fetch+git merge
+
+// git fetch tells the there are changes avaliable in remote repository without bringing the changes in local repository
+
+// but git pull brings the copy of files in remote repository to local repository
+
+// after the git fetch git merge command is used to copying the files form remote repository to local repository
+  
+//git reset >> git reset is used to undo local changes to the state of a Git repository..
