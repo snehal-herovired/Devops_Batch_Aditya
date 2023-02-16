@@ -1,0 +1,9 @@
+TO SHOW HIDDEN FILES IN LINUX:
+In Linux and Unix-like systems, if a file or directory (folder) name starts with a period (.), then the file becomes hidden by default. To see all hidden files in Linux run ls -al command.
+
+For example:
+nani.txt  is a test file to hide this file follow below steps
+
+mv nani.txt .nani.txt     # nani.txt  is hide
+
+ls -a                     # to see hidden file

@@ -1,0 +1,14 @@
+AWK COMMANDS:
+The awk command is a Linux tool and programming language that allows users to process and manipulate data and produce formatted reports. The tool supports various operations for advanced text processing and facilitates expressing complex data selections.
+
+1.AWK operations
+   a.scans a file line by line
+   b.splits each input line intofields
+
+2. useful for
+   a.Transfer data files
+   b. produce formatted reports
+
+3. programming constructs
+   a.arthimatic string operations
+   b.conditional and loops

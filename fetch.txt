@@ -1,0 +1,2 @@
+GIT FETCH:
+When you do a git fetch, it fetches all the changes from the remote repository and stores it in a separate branch in your local repository. You can reflect those changes in your corresponding branches by merging.
