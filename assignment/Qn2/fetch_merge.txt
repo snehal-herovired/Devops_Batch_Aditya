@@ -1,0 +1,5 @@
+git fetch is a primary command used to download contents from a remote repository
+merge refers to  to become combined into one
+commands used for fetch and merge are:
+git fetch
+git merge <branch name>

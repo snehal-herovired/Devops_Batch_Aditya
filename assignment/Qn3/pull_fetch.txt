@@ -1,0 +1,5 @@
+When comparing Git pull vs fetch, Git fetch is a safer alternative because it pulls in all the commits from your remote but doesn't make any changes to your local files. 
+On the other hand, Git pull is faster as you're performing multiple actions in one – a better bang for your buck.
+commands used for fetch and pull :
+git fetch
+git pull <link>
