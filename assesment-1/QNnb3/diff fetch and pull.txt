@@ -1,0 +1,15 @@
+FETCH COMMAND:
+=================
+It is used to download commits and files from remote repostiory to the local repository.
+And also this command will help you see all the updates on the remote repository, see the changes and decide if you want to keep them or discard them  .
+It does not effect the working repository.
+PULL COMMAND:
+=============
+The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+
+Process for fetch and pull:
+----------------------------
+suppose any changes are done or push something  in your remote repository before use fetch command
+git fetch link of repository:    it shows the  updates on the remote repository
+git pull link of repository :    it download the content from a remote repository and immediately
+

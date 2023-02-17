@@ -1,0 +1,21 @@
+STASH COMMAND:
+=============
+it is used for to switch from branch from one to other without comminting.
+The term stash means to store something in hidden place.This means when we apply stash command it stores the modified data in some hidden place.
+Usage of stash command:
+======================
+example:when you working in a branch1 suddenly we need to change the branch2 in the middle of work here instead of commiting the work in branch1 in the middle
+we have to apply stash command and then change,so the matter in branch1 doesnot coming in branch2.
+
+process
+=======
+initially i delete  floder learning git and commit the changes
+vi kavya.txt:after i will change some test in file kavya.txt
+git stash:  apply stash it will hidden the matter some place.
+git stash list:and then command stash list it shows how many changes we done.
+git stash apply n:it shows the edited changes related to that n nbr
+git stash pop or git stath drop n:removes the stash list line related to that nbr
+
+
+
+

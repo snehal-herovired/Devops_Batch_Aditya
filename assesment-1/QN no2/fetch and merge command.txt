@@ -1,0 +1,19 @@
+MERGE COMMAND:
+================
+ It will combine multiple sequences of commits into one unified history.simply it combine two branches
+
+FETCH COMMAND:
+=================
+It is used to download commits and files from remote repostiory to the local repository.
+And also this command will help you see all the updates on the remote repository, see the changes and decide if you want to keep them or discard them  .
+It does not effect the working repository.
+
+Process for fetch and merge:
+----------------------------
+suppose any changes are done in your remote repository before use fetch command
+git fetch link of repository:it shows the  updates on the remote repository
+Process for merge command:
+----------------------------
+To merge branches locally, use git checkout to switch to the branch you want to merge into. 
+This branch is typically the main branch. Next, use git merge and specify the name of the other branch to bring into this branch. 
+
