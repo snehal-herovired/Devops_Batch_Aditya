@@ -1,0 +1,2 @@
+Git stash:
+->git stash is used to save the changes which are uncommitted
