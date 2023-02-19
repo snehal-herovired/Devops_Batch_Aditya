@@ -1,0 +1,20 @@
+Git stash 
+
+	It is used to saved the files temporarily.It is stored safely in a hidden place.
+      you have any important work to so ,in that time this command is used 
+      you can come back and re-apply them later on.
+
+
+Git merge 
+		 
+	It is used to integrate changes from another branch.
+	It is the content refs and heads into a local merge commit.
+ The awk command is a linux tool and programmimg language that allows 
+             users to process and manipulate data and produce formatted reports.
+             It is the advanced text processing.
+
+
+Git fetch 
+		
+	It tells the local repository that there are changes available in the remote repository without changes into the local repository. 
+	It is the copy of the remote changes in the local repository
