@@ -1,0 +1,17 @@
+~ Amazon Simple Storage Service (Amazon S3) is an object storage service.
+~ Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, 
+   websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics. 
+~ Amazon S3 provides management features so that you can optimize, organize, and configure access to your data to meet 
+   your specific business, organizational, and compliance requirements.
+
+Hosting a Static Website:
+Step 1: Create a S3 bucket
+	~ Click on the bucket and add files and folders of the website that you want to host.
+Step 2 : From the Permissions of the Bucket,
+  a) Edit Block Pulic access by unchecking the box and save changes.
+  b) Edit Object Ownership by clicking ACL's enabled and mark the box showing "I acknowledge that ACL's will be restored".
+Step 3:From the Properties of the Bucket,
+  a) Edit Static Website Hosting by clicking Enable and write index.html in  the Index document. 
+Step 4 :From the Object window, click the objects present in the bucket and click Actions and Click Make Public using ACL.
+Step 5: Now,From the Static Web Hosting,copy the url provided after enabling the Static Web Hosting and paste the link in a 
+            new tab of the chrome browser.

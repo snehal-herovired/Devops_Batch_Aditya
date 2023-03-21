@@ -1,2 +1,0 @@
-The git stash command enables us to switch branches without committing the current branch.
-The git stash command locally stores the recent changes in a separate area so that we can fetch those changes later.

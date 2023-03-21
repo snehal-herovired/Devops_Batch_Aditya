@@ -1,0 +1,35 @@
+A DB instance is an isolated database environment running in the cloud. It is the basic building block of Amazon RDS. 
+A DB instance can contain multiple user-created databases, and can be accessed using the same client tools and applications you might 
+use to access a standalone database instance. 
+DB instances are simple to create and modify with the AWS command line tools, Amazon RDS API operations, or the AWS Management Console.
+
+Creating a database with ec2 connection:
+Step 1: Create a Mariadb DB instance 
+	~ Choose Create database and make sure that Easy create is chosen.
+	~ DB instance size - Free tier
+	~To enter your master password, make sure Auto generate a password is cleared, and then enter the same password in 
+	Master password and Confirm password.
+	Choose Create database.
+Step 2: Create an EC2 instance
+	~ Under Application and OS Images (Amazon Machine Image), choose Ubuntu Linux.
+            ~ Under Instance type, choose t2.micro.
+	~  Under Key pair (login), choose a Key pair name to use an existing key pair.
+	~ Provide all the necessary details and launch the instance.
+Step 3: Connect your EC2 instance and MariaDB instance automatically
+	~ In the navigation pane, choose Databases, and then choose the RDS database.
+	~ For Actions, choose Set up EC2 connection.
+	~ The Set up EC2 connection page appears.
+	~ On the Set up EC2 connection page, choose the EC2 instance.
+	~ On the Review and confirm page, review the changes that RDS will make to set up connectivity with the EC2 instance.
+	   If the changes are correct, choose Confirm and set up.
+Step 4: Click on the DB instance and copy the endpoint & port number
+Step 5: Connect to the EC2 instance created
+Step 6: Write the Following commands
+a) apt install mysql-client
+b)mysql --version
+c)mysql -h database-1.cwnegjnpupko.us-east-1.rds.amazonaws.com -P 3306 -u admin -p
+d)create database anusha;
+e)use anusha;
+f)create table student (id INT NOT NULL AUTO_INCREMENT,name VARCHAR(40),BRANCH VARCHAR(10),PRIMARY KEY(id));
+g)insert into student (name,branch) values ('anusha','ece'),('lakahmi','ece');
+h)select * from student;
