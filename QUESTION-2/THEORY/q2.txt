@@ -1,0 +1,38 @@
+step-1:create one ECE-2 instance with ubuntu application
+
+step-2:after connect that instance and view the instance
+
+step-3:after that type the following commands
+
+step-4:Update ubuntu instance
+sudo apt-get update
+
+step-5:Upgrade ubuntu system
+sudo apt-get upgrade
+
+step-6:#install ngnix
+sudo apt-get install nginx -y
+
+step-7:#nginx version
+nginx -v
+
+step-8:#restart nginx
+sudo systemctl restart nginx
+
+step-9:#install nodejs ubuntu
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+step-10:#reate the react project. (create-react-app)
+npx create-react-app react-tutorial
+
+step-11:#Build the react project
+cd react-tutorial
+npm run build
+
+step-12:#Run the project
+npm start
+
+
+

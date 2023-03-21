@@ -1,0 +1,16 @@
+step-1:create a s3 bucket
+
+step-2: enable the ACL ,give public acess
+
+step-3:upload files and folders from reactjs application
+
+step-4:then public the object and static web hosting
+
+step-5:then paste the url of static web hosting 
+
+step-6:after pasting we will get a amazon page 
+
+step-7:the task is completed
+
+
+
