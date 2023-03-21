@@ -1,0 +1,32 @@
+Q2. Create an EC2 intance for a Reactjs application and deploy the application and provide the public ip for it, also enable the cloud monitoriing on this estances
+Step 1:
+      For this first we have to create the ec2 instance inthe aws console management which is created in ubuntu linux 
+Step 2:
+      Then we have to check that the server is running or not and we have to wait until that the server is to be run 
+Step 3:
+      We have to update that the ubuntu linux by using the command sudo apt-get update : this command is used to update the command
+      Then we have to use the command the command sudo apt-get upgrade that the content in the ubuntu linux server 
+Step 4: 
+      Now we have to install the ngnix in it so we have to use the command 'sudo apt-get install ngnix-y'
+Step 5:
+      Next we have to check the ngnix the version for that we have to check 'ngnix-v' 
+Step 6:
+      Now we have to restart the ngnix for that we have to use the command 'sudo systemctl restart ngnix'
+Step 7:
+      Now We have to install the nodejs in the ubuntu server 'sudo apt-get install curl' this command is used for for installing the nodejs 
+      then we have to use the command is used to command 'curl-sL httpd://httpds://deb.nodesource.com/setup_14.x |sudo -E bash-'  then we        
+      have to use the command the 'sudo apt-get install-y nodejs ' for installing and updating the nodejs 
+
+Step 8:
+      now we have to create the react project we are using the command 'npx create-react-app react tutorial' for creating the react    
+      application 
+Step 9:
+      Now we have to build the react project so we have to using the  command 'cd react-tutorial' next 'npm run build' for building and           
+      running  to the nodejs 
+Step 10:
+        Now we have to use the command 'npm start' for starting the build nodejs in it
+Step 11:
+        Now we got the port of 3000 for nodejs so that that the application of nodejs is deoloyed in the ec2 instance
+Step 12:
+        For making that the nodejs is to run we have to go to the securitygroups then editoinbounds then  we have to give the port number 
+        3000 to get the nodejs application in it

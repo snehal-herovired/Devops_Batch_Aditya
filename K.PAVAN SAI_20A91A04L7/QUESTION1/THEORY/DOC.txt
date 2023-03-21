@@ -1,0 +1,12 @@
+STEP 1:
+first we have to create the jenkins cicd paipe line
+STEP 2:
+Now we have to use the localhost:8000 to go to the jenkins
+STEP 3:
+Now we are creating the cicd pipeline by the required java application
+STEP 4:
+Now we are deploying that java folder in it
+STEP 5:
+Now we are seeing through dockerdesktop
+STEP 6:
+Now we are seeing that the application in it

@@ -1,0 +1,17 @@
+ Create an S3 bucket and deploy the reactjs static application on it and provide with the public url for use.
+Step 1:  
+       First we have to create the s3 bucket with that we have to give the s3 bucket as public we have to make it as public acls are to 
+       be  enabled and give the public so that we are giving permission as public
+Step 2:
+       Now we have to upload the reactjs folder into it so we have to make them as public 
+Step 3:
+       After deploying the file then we have to go to the actions then we have to make them acls are to be enabled 
+Step 4:
+      Then we have to set that the bucket versioning are to be enabled 
+Step 5:
+      Then we are getting that the index.html are to copied that the url and paste it in the browser then we will get the sample page which
+      which is not to be considered then that is to be build then we are using the following that the commands
+      npm i , npm run bulid ,npx create-react-app my-app>>cd my-app>>npm start 
+      by using these commands that they are to be uploaded and browse them these are to be make as acls are to  be public 
+Step 6:
+       ThAT the application is running properly          

@@ -1,0 +1,10 @@
+Step 1:
+       First we have to create the ec2 instance using the ubuntu linux now we have to create the database in RDS
+Step 2:
+       Now we have to create the database in wich is to be set with easyone then to be set in freetier then we have to set that the
+       work to be done now we have to configure that the reqired things
+Step 3:
+       Now we have to setup that the ec2 with the database then  command:sudo apt-get install mysql-client
+2 command:mysql -h <RDSendpoint> -u <username> -p
+3 command:CREATE DATABASE <database_name>;
+4 command:USE <database_name>;
