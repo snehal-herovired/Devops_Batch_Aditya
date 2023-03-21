@@ -1,0 +1,28 @@
+2.Create an EC2 intance for a Reactjs application and deploy the application and provide the public ip for it, also enable the cloud monitoriing on this estances.
+
+* created an EC2 Instance 
+
+
+*Installed and Configure ngnix on EC2 instance
+
+
+*Installed  Nodejs
+
+
+*Installed Yarn
+
+*created a project in it
+
+
+*then yarn run build
+
+
+* then Start yarn 
+
+
+*then try to access the react with the ip address and the port number as i consideres 3000 as port
+
+
+
+
+ 

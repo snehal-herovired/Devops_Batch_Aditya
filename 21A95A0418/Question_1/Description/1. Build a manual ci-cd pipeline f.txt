@@ -1,0 +1,31 @@
+Q1. Build a manual ci-cd pipeline for a java application and also write a simple test.sh for testing , after that convert the same in automated ci-cd pipeline using jenkins but you have to also use maven for java application.
+
+* intially open jenkins and cretae an new item  
+
+* now name the pipline and create a manual pipeline 
+
+*by choosing the pipeline not freestyle
+
+*now configure an add the java file on the created pipeline
+
+*now apply the changes and save the file 
+
+*now build the pipe using BUILD NOW
+
+* cheak the console ouput
+
+---
+
+*now upload the same pipe into git using docker and git
+
+*now coppy the repository link 
+
+*create a newitem in the jenkins by choosing the freestyle model
+
+*now configre the pipw and substute the git repo link 
+
+*configure the settings in  pipe like poll scm md credintials
+
+*now build the pipe 
+
+*cheak for console output

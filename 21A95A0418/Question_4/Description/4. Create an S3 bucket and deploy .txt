@@ -1,0 +1,22 @@
+Q4. Create an S3 bucket and deploy the reactjs static application on it and provide with the public url for use.
+
+*Open the AWS console accouunt and open S3 service in it 
+
+*create an bucket with the unoque name 
+
+*no enable the ACLs in the bucket and also enable the Public access
+
+*now launch the Bucket 
+
+*now add the objects in the bucket 
+
+*now enable the static web hosting 
+
+*and create an html page using index.html
+
+*and now public all objects in the bucket
+
+*and copy the static webhosting link address
+
+*finally paste in int source browser and we see the sample page of nodejs
+

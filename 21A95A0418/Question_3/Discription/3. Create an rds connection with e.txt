@@ -1,0 +1,23 @@
+Q3. Create an rds connection with ec2 intance and use it to create an sql database and a sample table.
+
+*go to the Aws console home page no go through the RDS(service)
+
+*RELATIONAL DATA BASE SERVICE
+
+*now create an database in the service using easy model 
+
+*now choose the type of SQl (it will choosen by considering the application)
+
+*Then go through the credintials of database
+
+*then create an EC2 instance and launch it
+
+*connect to the ec2 server and install sql on the instance
+
+*now connect to the database created in RDS from EC2 instance using the credintials and 'WITH END POINT" address
+
+*now login DB and launch MYSQL
+
+*now create the tables using mysql commands
+
+*they are updated in data base created in RDS 
