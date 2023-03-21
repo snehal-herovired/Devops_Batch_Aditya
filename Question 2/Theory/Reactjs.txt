@@ -1,0 +1,39 @@
+The process of creating an EC2 instance for a ReactJS application and deploying it. Here are the steps:
+
+Create an EC2 instance:
+
+1.Login to your AWS console and navigate to the EC2 dashboard.
+2.Click on "Launch Instance" to create a new instance.
+3.Choose an Amazon Machine Image (AMI) that is suitable for your application. For a ReactJS application, you can choose a Linux-based AMI like Amazon Linux 2 or Ubuntu.
+4.Select the instance type that meets your requirements. For a small application, you can choose a t2.micro instance.
+5.Configure the instance details like network, subnet, and security group.
+6.Add storage as per your requirements and click on "Review and Launch".
+7.Review your instance configuration and click on "Launch".
+8.Select an existing key pair or create a new one to securely connect to your instance.
+
+
+
+Deploy the ReactJS application:
+
+1.Connect to your EC2 instance using SSH.
+2.Install the required dependencies for your ReactJS application like NodeJS, npm, etc.
+3.Clone your ReactJS application repository from a Git repository using git clone command.
+4.Navigate to the application directory using cd command and install the dependencies using npm install.
+5.Build the application using npm run build command.
+6.Start the application using npm start command.
+
+
+Enable CloudWatch monitoring:
+
+1.Go to the EC2 dashboard and select your instance.
+2.Click on the "Monitoring" tab and then click on "Enable detailed monitoring".
+3.This will enable CloudWatch monitoring for your instance.
+4.You can also create custom CloudWatch alarms to monitor various metrics like CPU usage, memory usage, etc.
+
+
+Get the Public IP:
+
+1.Go to the EC2 dashboard and select your instance.
+2.Look for the "IPv4 Public IP" column and copy the IP address.
+
+That's it! You have successfully created an EC2 instance for your ReactJS application, deployed it, enabled CloudWatch monitoring, and obtained the public IP address.

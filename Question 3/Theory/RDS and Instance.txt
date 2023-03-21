@@ -1,0 +1,36 @@
+To create an RDS connection with an EC2 instance and use it to create an SQL database and a sample table, you can follow the steps below:
+..............................
+Launch an EC2 instance:
+
+1.Log in to your AWS Management Console.
+2.Navigate to the EC2 service and click on "Launch Instance".
+3.Choose an Amazon Machine Image (AMI) and an instance type.
+4.Configure the instance details, such as the VPC, subnet, and security group.
+5.Launch the instance and wait for it to be ready.
+
+Create an RDS instance:
+
+1.Navigate to the RDS service in the AWS Management Console.
+2.Click on "Create Database" and choose the database engine you want to use (e.g., MySQL).
+3.Configure the database settings, such as the instance type, storage, and backup options.
+4.Set up the security group and create a master username and password.
+5.Launch the instance and wait for it to be ready.
+
+
+Connect to the RDS instance from the EC2 instance:
+
+1.SSH into the EC2 instance.
+2.Install the MySQL client by running the command: sudo yum install mysql
+3.Connect to the RDS instance using the command: mysql -h <RDS endpoint> -P <port> -u <master username> -p
+4.Enter the master password when prompted.
+
+
+Create an SQL database:
+
+.Once connected to the RDS instance, run the following SQL command to create a database: CREATE DATABASE <database_name>;
+
+Create a sample table:
+
+1.Run the following SQL command to switch to the newly created database: USE <database_name>;
+2.Run the following SQL command to create a sample table: CREATE TABLE <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(255) NOT NULL, PRIMARY KEY (id));
+You have now created an RDS connection with an EC2 instance, created an SQL database, and a sample table.

@@ -1,0 +1,28 @@
+To create an S3 bucket and deploy a ReactJS static application, follow these steps:
+
+1.Log in to your AWS account.
+2.Navigate to the S3 console.
+3.Click on the "Create bucket" button.
+4.Enter a unique name for your bucket and select the region where you want to create it.
+5.Leave the default settings for the rest of the options and click on the "Create bucket" button at the bottom of the page.
+6.Once your bucket is created, click on it to access the bucket dashboard.
+7.Click on the "Upload" button and select the files you want to upload.
+8.Make sure to set the "ACL" (Access Control List) to "Public" for the files you upload so that they are accessible to the public.
+9.Once the files are uploaded, select them and click on the "Actions" button.
+10.Click on the "Make Public" option to make your files accessible to the public.
+11.Go to the "Properties" tab and click on the "Static website hosting" option.
+12.Select the "Use this bucket to host a website" option and enter the "Index document" and "Error document" names for your website.
+13.Click on the "Save" button to save your settings.
+14.Your S3 bucket is now ready to host your ReactJS static application.
+
+
+
+To access your public URL, follow these steps:
+
+1.Go to the "Properties" tab of your S3 bucket dashboard.
+2.Click on the "Static website hosting" option.
+3.Copy the "Endpoint" URL provided under the "Static website hosting" section.
+4.This is your public URL for accessing your ReactJS static application hosted on S3.
+
+
+http://amazonreact.s3-website-us-east-1.amazonaws.com
