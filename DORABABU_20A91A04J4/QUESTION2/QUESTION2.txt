@@ -1,0 +1,59 @@
+Q2. Create an EC2 intance for a Reactjs application and deploy the application and provide the public ip for it, also enable the cloud monitoring on these instances.
+
+
+STEP1: CREATE A INSTANCE USING AWS  (UBUNTU SERVER)
+
+STEP2: CONNECT THE UBUNTU SERVER 
+
+STEP3: #Update ubuntu instance
+        
+       sudo apt-get update
+
+STEP4: #Upgrade ubuntu system
+
+       sudo apt-get upgrade
+
+STEP5: #install ngnix
+       
+       sudo apt-get install nginx -y
+
+STEP6: #nginx version
+
+       nginx -v
+
+STEP7: #restart nginx
+
+       sudo systemctl restart nginx
+
+STEP8: #install nodejs ubuntu
+
+       sudo apt-get install curl
+       
+       curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
+       sudo apt-get install -y nodejs
+
+STEP9:  #reate the react project. (create-react-app)
+
+        npx create-react-app react-tutorial
+
+STEP10: #Build the react project
+
+        cd react-tutorial
+
+        npm run build
+
+STEP11: #Run the project
+
+        npm start
+
+STEP12: THEN OPEN EC2 INSTANCE 
+
+STEP13:  OPEN SECURITY GROUPS AND OPEN EDIT INBOUND RULES
+
+STEP14: CLICK ON ADD RULE  ADD  3001 ON CUSTOM PORT
+
+STEP15: COPY PUBLIC ADDRESS OF THE INSTANCE
+
+STEP16: COPY THE 54.236.51.11:3001
+

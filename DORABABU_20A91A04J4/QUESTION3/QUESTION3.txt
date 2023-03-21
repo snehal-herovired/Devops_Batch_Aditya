@@ -1,0 +1,33 @@
+Q3. Create an rds connection with ec2 instance and use it to create an sql database and a sample table.
+
+STEP1: CREATE A INSTANCE  USING AWS  UBUNTU SERVER
+
+STEP2: THEN CREATE RDS DATABASE
+
+STEP3: WHILE CREATING DATABASE SELECT EASY CREATE
+
+STEP4: THEN SELECT CONFIGURATION AS MY SQL
+
+STEP5: THEN SELECT FREE TIER
+
+STEP6: AND USER NAME AS ADMIN  CREATE MASTER PASSWORD  AND CONFIRM IT
+
+STEP7: THEN CONECT WITH EC2 CONNECTION
+
+STEP8: SELECT INSTANCE
+
+STEP9: THEN PROCEED
+
+STEP10: CONNECT EC2 INSTANCE AND FOLLOW THESE COMMANDS
+        
+        1 command:sudo apt-get install mysql-client
+        
+        2 command:mysql -h database-2.crvfsd9zety8.us-east-1.rds.amazonaws.com -P 3306 -U admin -p
+
+        3 command:CREATE DATABASE dorababu;
+
+        4 command:USE dorababu;
+
+        5 command:CREATE TABLE <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(50) NOT NULL, PRIMARY KEY (ID));
+
+        6 command:INTO <table_name> (name) VALUES ('your name')
