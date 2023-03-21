@@ -1,0 +1,16 @@
+Procedure: 
+1. Create a repository in github. 
+2. Open the folder of the java which is needed to create a manual CI-CD 
+pipeline . 
+3. Go to the command prompt and initialize git using “GIT INIT” command. 
+4. And then push the local files into the git repository that you have created. 
+5. Open the linux or ubuntu and pull the data from the git repository that we 
+have created and pushed the java application folder. 
+6. Now after pulling the files. 
+7. Create 2 files for as “deploy.sh” and “checkstatus.sh”. 
+8. And write the code for the CI-CD pipeline working in the both files . 
+9. completing code in nano editor save the files and then open the CronTab . 
+10.give the exact directory of the file which we are working on and the new 
+file in which we have to save our data. 
+11.Run the deploy.sh file in order to run the nodejs application. 
+12.Hence ci-cd pipeline is implemented successfully.

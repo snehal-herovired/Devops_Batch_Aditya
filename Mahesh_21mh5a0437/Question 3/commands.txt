@@ -1,0 +1,9 @@
+1.sudo su
+2.apt-get install mysql-client
+3.y/n-->y
+4.mysql -h <RDSendpoint> -P 3306 -u admin -p
+5.password:
+6.CREATE DATABASE <database_name>;
+7.USE <database_name>;
+8.CREATE TABLE <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(50) NOT NULL, PRIMARY KEY (ID));
+9.INTO <table_name> (name) VALUES ('your name')
