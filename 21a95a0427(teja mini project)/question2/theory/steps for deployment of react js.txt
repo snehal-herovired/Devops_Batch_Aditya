@@ -1,0 +1,20 @@
+#publicip:34.234.211.124
+
+
+steps:
+
+>update and upgrade the instance and ubuntu
+
+>install nginx
+
+>check version of nginx(nginx -v)
+
+>restart the nginx(sudo systemctl restart nginx)
+
+>install reactjs in ubuntu using curl
+
+>create the reactjs project
+
+>build the reactjs project
+
+>run the project(npm start)

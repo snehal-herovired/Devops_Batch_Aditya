@@ -1,0 +1,16 @@
+#Create an rds connection with ec2 instance and use it to create an sql database and a sample table....
+a)..
+1.creating rds:
+>we have to select easy create and engine type mysql and instance size free tier and give username and password...
+2.creating instance:
+>take a ubuntu instance with same vpc and security group same as in rds...
+3.connecting rds with instance:
+>in rds connectivity security setup confirm your instance setup with rds..
+>open ec2 instance and update the ubuntuu and install mysql and check version of it..
+>then run mysql -h endpointurl -P port number -u admin -p then enter password and it connects to mysql..
+4.sql commands to create a table:
+ >first create a database by using create database name;
+ >change to data by command use name;
+ >create a table with a name 
+ >insert the data in table
+ >then acess it...

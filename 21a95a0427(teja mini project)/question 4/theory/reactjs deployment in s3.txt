@@ -1,0 +1,20 @@
+#url:http://bucketofreactjsapp.s3-website-us-east-1.amazonaws.com
+
+#steps:
+1.give bucketname that must be globally unique..
+
+2.make acl enabled..(Access control list enabled)
+
+3.untick the block publlic access option...
+
+4.enable bucket versioning...
+
+5.create the bucket
+
+6.after creating bucket enable the static website hosting option in properties section...
+
+7.then in obects section click on upload then uload files and folders of your reactjs application seperately...
+
+8.then click on upload...after uploading is done make all objects public using make public using acl in actions...
+
+9.then go to properties and then copy the url and open your static website...
