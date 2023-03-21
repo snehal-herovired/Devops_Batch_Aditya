@@ -1,0 +1,14 @@
+A CI/CD pipeline automates your software delivery process. The pipeline builds code, runs tests (CI), and safely deploys a new version of the application (CD).
+
+Continuous integration is the practice of integrating all your code changes into the main branch of a shared source code repository early and often, 
+automatically testing each change when you commit or merge them, and automatically kicking off a build. 
+With continuous integration, errors and security issues can be identified and fixed more easily, and much earlier in the development process.
+
+Continuous delivery is a software development practice that works in conjunction with CI to automate the infrastructure provisioning and application release process.
+
+While you can do continuous integration without continuous delivery or deployment, you can’t really do CD without already having CI in place. 
+That’s because it would be extremely difficult to be able to deploy to production  any time if you aren’t practicing CI fundamentals like integrating
+ code to a shared repo, automating testing and builds, and doing it all in small batches on a daily basis.
+
+We can create CI/CD pipeline for any application either manually or through Jenkins. 
+

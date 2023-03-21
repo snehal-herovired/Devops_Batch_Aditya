@@ -1,1 +1,0 @@
-The git stash command enables us to switch branches without committing the current branch.
