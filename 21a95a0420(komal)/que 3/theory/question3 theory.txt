@@ -1,0 +1,18 @@
+question3:Create an rds connection with ec2 instance and use it to create an sql database and a sample table.
+sol:
+step 1: we have to go the aws console and take a rds service and  click on the create a database
+	->select a easy create->select a mysql-> free tier ->and given a credientials user name "admin" and given password and confirm password->create a database.
+go to properties and setup the instances to connect the rds to ec2 instance
+step2: we have to create a instance and install the mysql in the instance.by using the commands
+    1  apt update
+    2  apt install mysql-client
+    3  sudo apt instal mysql-client
+    4  sudo apt install mysql-client
+    5  mysql -h database-3.cksfqqhh75bg.ap-northeast-1.rds.amazonaws.com -P 3306 -u admin -p
+    we goto the mysql naxt we have to create a database by usin the command "create database "anyname";"
+    then we go to the database by command "use databasename"
+    and we have to create a tables like names and branches "create table student(id INT NOT NULL AUTO_INCREMENT,name VARCHAR(50),Branch VARCHAR(10),PRIMARY KEY(id)); and after intiallisze the names   
+    and we have select the student "select * from students"
+after we get a sample tables
+
+	

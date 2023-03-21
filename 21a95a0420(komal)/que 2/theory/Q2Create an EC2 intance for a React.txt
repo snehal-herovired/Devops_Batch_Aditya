@@ -1,0 +1,22 @@
+Q2:Create an EC2 intance for a Reactjs application and deploy the application and provide the public ip for it, also enable the cloud monitoriing on this estances.
+
+sol:
+step1 we have to create a ubuntu instance in the ec2 instance and it gets running we have to go actions and enable the montering of the instance.
+step2:we have to connect the instance and we have to update the ubuntu instance by using this command "  sudo apt-get update ".
+next we have to upgrade the instance to check the instance in upgrade the version and check for the new versions by using the command
+"sudo apt-get upgrade".
+step3: next we have to install the nginx in the ubuntu instance beacuse  it is a open source Web server software that also performs reverse proxy, load balancing, email proxy and HTTP cache services.by using the command "sudo apt-get install nginx -y". Next we have to check the nginx version "nigix-v"
+step4:install the nigix and check the version and the we have to start the nginx by using the command "sudo systemctl restart nginx".
+step5:after we start the nginx we have to install the nodejs application in the ubuntu instance. we have to install the nodejs befor we have to install the cURL because a tool to download or transfer files/data from or to a server using FTP, HTTP, HTTPS, SCP, SFTP, SMB and other supported protocols on Linux or Unix-like system by usin the command "sudo apt-get install curl".
+step6: we have to use the http link by usin the command"curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -".we get the http link by usin the cURL tool
+step7: next we have to install the nodejs application in the ubuntu instance by using this command "sudo apt-get install -y nodejs"
+step8: we have create a react application by using the nodejs by using the command "npx create-react-app react-tutorialnpx create-react-app react-tutorial".
+step9:we have build a project in the react application by using the command "cd react-tutorial".Next we have to run and bulid the application of react app by usin the command "npm run build".
+step10: we have to start the reactjs application by using the command "npm start"
+step11: it successfully running next we have to copt the ip address and paste in the google "ip:3000"
+step12: we have to get a reactjs application interface in the http server
+
+
+
+
+

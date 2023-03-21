@@ -1,0 +1,19 @@
+quetion 4:Create an S3 bucket and deploy the reactjs static application on it and provide with the public url for use.
+
+
+solution:
+Here we have to put the reactjs application in the S3 bucket and we have host the reactjs application in the html page
+->first we have to clone the reactjs application from the github repository to the local file folder by using a command"git clone repository link"
+->next go to the amazon console page we take s3 service and we create a bucket and upload the application
+   ->create a bucket 
+		->we have a unique name to create a bucket
+		->next we have to put the ACLs enable 
+		-> after a make a public and enable bucket version
+		-. create a bucket
+   ->next we have to upload the file and folders in the bucket
+		-> click on the bucket and upload objects
+		->And click the upload the files and after click the application of reactjs we have to upload the files and folders
+		->select the all files ->got to actions->make as public
+   ->next we have to host the application in the web page
+		-> fist we have to select the bucket->goto properties->goto static web hosting -> enable-> given a index.html because we have to upload the files in the server
+		   and click on the ok -> last web hosting create a web page line for reactjs application-> copy the link and paste on the google 
