@@ -1,0 +1,31 @@
+RDS: Amazon Relational Database Service (Amazon RDS) is a web service that makes it easier to set up, operate, and scale a relational database in the AWS Cloud.
+
+Database creation:
+
+*  In aws management console select rds then create database
+*  choose a database creation method of easy create type and select configuration of mariadb
+*  use freetier service in selecting the db instance size and give user and password and then              	click on launch data base
+* launch an ec2 instance
+*  copy the end point and select setup ec2 connection and connect the ec2 instance with database
+* database and ec2 must be in same vpc or else you may get an error
+
+enter the following commands:
+sudo apt update
+
+sudo apt install mysql-client
+
+mysql --version
+
+mysql -h  end point -P 3306 -u admin -p password
+
+create database bhavani;
+
+use bhavani;
+
+create table student (id INT NOT NULL AUTO_INCREMENT,name VARCHAR(40),BRANCH VARCHAR(10),PRIMARY KEY(id));
+
+insert into student (name,branch) values ('geetha','ece'),('bhavani','cse'),('durga','ece');
+
+select * from student;
+
+finally we are able to launch a table using sql commands

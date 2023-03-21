@@ -1,0 +1,15 @@
+S3: S3 stands for simple storage servicean object storage service that offers industry-leading scalability, data availability, security, and performance. 
+
+* create an s3 bucket
+* enter bucket name
+* acls must be enable in object owner ship
+* give public access and create bucket
+* after creating bucket add .html,.css,images,files, folder of reactjs are upload to it
+* then select all those files and go to actions make public using acl
+* go to properties edit static web hosting and enable it 
+* use the public url for hosting the static website
+
+
+ public url:
+
+		http://geethatask.s3-website-us-east-1.amazonaws.com
