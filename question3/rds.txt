@@ -1,0 +1,7 @@
+step 1: create database and create ec2
+step2:connect the data base with ec2
+step3:and connect the ec2
+step4:install mysql
+step5:login to mysql
+step6:create database
+step7:use datebase and create tables

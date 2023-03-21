@@ -1,0 +1,8 @@
+step1:create ec2 instance
+step2:connect ec2 instance
+step3:clone reactjs floder 
+step4:install nmp
+step5:start npm
+step6:go to the monitoring add dashboard
+step7:go to security groups give custom cpp,ssh,http,https and save changes
+step8:copy public ip address and past on new tab and give :port number amazon web page will be shown

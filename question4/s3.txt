@@ -1,0 +1,6 @@
+step1:create bucket
+step2:creat build floder
+step3:upload files in build folder
+step4:make all objects public using acls
+step5:make sure that all objects and bucket public
+step5:in permission enable website hosting and copy url and paste in new tab 
