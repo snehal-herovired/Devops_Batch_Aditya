@@ -1,0 +1,16 @@
+Amazon s3:
+    Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+    You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere.
+
+PROCESS OF DEPLOYING REACTJS APPLICATION:
+ 1)we need to install node.js
+ 2)we need to open vs code terminal in the reactjs path and in the terminal for getting node modules we need give command "npm i"
+ this command used to get the node modules
+ 3) npm run build : This command used to get build files to our application which helps us to deploy the application
+ 4)create bucket with bucket name and make sure that access control list(ACLs) should be enabled and the bucket should be in public
+ 5)click on the bucket created and upload the objects and make the objects public
+ 6)go to properties and enable the static website hosting and here we will get bucket website endpoint
+
+
+ PUBLIC URL:
+      "http://project402.s3-website-us-east-1.amazonaws.com" 

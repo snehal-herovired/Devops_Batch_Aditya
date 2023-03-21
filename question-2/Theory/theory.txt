@@ -1,0 +1,23 @@
+Deploying nodejs application on Ec2 instance:
+  Create an Ec2 instance:
+      1)Go to instance and launch instance 
+      2)give instance name and select your instance AMI(ubuntu)
+      3)Give security groups as SSH,HTTPS,HTTP and select your keypair 
+      4)launch instance
+    After launching instance and connect the instance 
+    after connection is established and the following commands have to be executed in order to deplohy the simple java application
+    COMMANDS:
+    ========
+    1)sudo su : switch user
+    2)sudo apt-get update : to upadatet the packages
+    3)git clone reponame : to get nodejs application from remote area
+    4)cd foldername : to go to the particular folder which is cloned from the remote reponame
+    5)npm i : to install npm 
+    5)npm start : to start
+
+    Go to the instance and security group and add inbound rule as type -> custom TCP , port range-> 3000 , source:my Ip
+    To enable the cloud monitoring go to the instance --> enable detail monitoring -> add to dashboard 
+
+
+
+public IP: 44.196.57.184:3000

@@ -1,0 +1,29 @@
+Connecting RDS to Ec2 instance:
+  1)we need create Ec2 instance 
+  steps for creating Ec2 instance:
+      1)go to instance. launch instance and select any AMI (ubuntu) 
+      2)select instance type and key pair 
+      3)select network setting(SSH and everywhere) and launch instance
+  2)we need to create database:
+      1)go to RDS and create database and choose ease type and engine option(mysql)
+      2)choose a sample template to meet your use case(free tier)
+      3) In settings give database name and master username and password or you can choose auto generate password
+      4)and leave the remaining as it is and click on create database
+      5)It will take some time to database available
+      5)After database available and click on that database and copy the endpoint 
+      6)click on security group and edit inbounds rule and add rule and add the mysql 
+      7)scroll down to the last and the connect the previously launched instance
+    3)MAking connection between RDS and ec2 instance and creating sample table:
+       1)select the instance and connect
+       2)give the commands:
+              => sudo su : to switch the root username
+              => apt install mysql-client : to install the mysql-client
+              => mysql --version : to check the version of the mysql
+              =>mysql -h <database endpoint> -u <username> -p : this is the command to get into your RDS after that enter the password
+              =>the connection is established between the ec2 and RDS
+              here is the commands for creating sample table:
+                 create database sandhya;
+                 use sandhya;
+                 create table student (id INT NOT NULL AUTO_INCREMENT,name VARCHAR(40).BRANCH VARCHAR(10),PRIMARY KEY(id);
+                 insert into student (name,Branch) values ('sandhya','ECE'),('deepika','ECE'),('bhavana','ECE');
+                 select * from student;
