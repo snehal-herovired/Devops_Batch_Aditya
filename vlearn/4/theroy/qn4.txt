@@ -1,0 +1,13 @@
+Amazon S3 
+It an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects. To store your data in Amazon S3, you first create a bucket and specify a bucket name and AWS Region
+
+Create an S3 bucket and deploy the reactjs static application on it and provide with the public url for use.
+
+Step 1: Create a bucket and upload the folders and files in the build
+Step 2: Enable static website hosting
+Step 3: Edit Block Public Access settings
+Step 4: Add a bucket policy that makes your bucket content publicly available
+ 
+at last find the static website url and paste in a new tab
+
+

@@ -1,0 +1,18 @@
+A CI/CD pipeline automates the process of software delivery. It builds code, runs tests, and helps you to safely deploy a new version of the software. CI/CD pipeline reduces manual errors, provides feedback to developers, and allows fast product iterations
+
+Understanding CI/CD Concepts, Jenkins and Project Setup
+
+Manually deploying Java-Maven application
+
+Jenkins Deployment - freestyle
+
+Create Your First Jenkins Pipeline
+
+Building Jenkins Pipeline to deploy applications
+
+Deploying application on the VM
+
+Moving Jenkins pipeline to Jenkinsfile in SCM
+
+Adding triggers to trigger a build
+

@@ -1,0 +1,29 @@
+Amazon RDS 
+it minimizes relational database management by automation Amazon RDS creates multiple instances for high availability and failovers Amazon RDS supports PostgreSQL, MySQL, Maria DB, Oracle, SQL Server, and Amazon Aurora Values from one table can have a relationship to values in other tables
+
+ec2
+EC2 is on-demand computing service on the AWS cloud platform
+
+steps for rds connection with ec2 instance and use it to create an sql database and a sample table.
+
+launch an ec2 instance 
+create a database in rds
+connect the ec2 instance with the database .continue and confirm it
+connect the ec2 instance and create an sql database and  a sample table with following commands
+
+sudo apt-get install mysql-client
+
+mysql -h <RDSendpoint> -u <username> -p
+
+CREATE DATABASE <database_name>;
+
+USE <database_name>;
+
+CREATE TABLE <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(50) NOT NULL, PRIMARY KEY (ID));
+
+INTO <table_name> (name) VALUES ('your name')
+
+select * from <table_name> ;
+
+
+
