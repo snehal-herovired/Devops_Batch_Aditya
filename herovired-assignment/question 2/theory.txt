@@ -1,0 +1,18 @@
+step 1 >> create a ec2 instance with ubuntu image and connect it
+
+step 2 >> commands to deploy reactjs in ec2 instance
+
+>sudo su
+>sudo apt update
+>git clone (reactsjs repository url)
+>ls
+>cd js
+>sudo apt-get istall npm
+>npm i
+>npm start
+
+step 3 >> connect the ec2 instance to the cloud watch
+
+step 4 >> edit inbound rules with port range 3000 & source is my ip
+
+step 5 >> copy ipv4 address and paste it in new tab like (ipv4address:port range

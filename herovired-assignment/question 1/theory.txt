@@ -1,0 +1,33 @@
+step 1 >> go to jenkins - install Maven Integration plugin & Pipeline Maven Integration Plugin
+
+step 2 >> go to new item & click on pipeline 
+
+step 3 >> go to global tool configuration & select jdk and give jdk path 
+
+step 4 >> go to general click on github project & paste the reactjs repository code
+
+step 5 >> go to build triggers & click on 1.Build whenever a SNAPSHOT dependency is built 2.GitHub hook trigger for GITScm polling
+
+step 6 >> go to pipeline & write the code in hello world type
+
+step 7 >> apply a7 save it
+
+step 8 >> build the item 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

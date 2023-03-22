@@ -1,0 +1,14 @@
+step 1 >> pull the raectjs folder from github repository
+
+step 2 >> go to vs studio from folder & build a build folder by using commands
+ 
+-npm i
+-npm run build
+
+step 3 >> create a bucket in s3
+
+step 4 >> upload the build folder in the bucket
+
+step 5 >> make folder public & also enable the static webhosting
+
+step 4 >> copy the index.html file & paste it in a new chrome tab

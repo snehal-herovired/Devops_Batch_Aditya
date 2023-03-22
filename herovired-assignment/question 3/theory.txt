@@ -1,0 +1,20 @@
+step 1 >> create a database
+
+step 2 >> create a instance & connect it to the database
+
+step 3 >> edit the inbound rules & give the type mysql/Aurora with source custom and modify the security groups
+
+step  4 >> now connect the instance
+
+step 5 >> create a database in ec2 instance using commands
+
+-sudo su
+-sudo apt update
+-sudo apt-get install mysql-client
+-mysql -h <database end point id> -P <port range> -u admin -p
+>give password
+-create database <name>;
+-use <name>;
+-create table <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(50) NOT NULL, PRIMARY KEY (ID));
+-insert into <table_name> (name) VALUES ('your name')
+-select * from <table_name>
