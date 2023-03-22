@@ -1,0 +1,41 @@
+Q2. Create an EC2 intance for a Reactjs application and deploy the application and provide the public ip for it, 
+    also enable the cloud monitoring on this instances.
+
+    Launch EC2 Instance:
+ 
+    First, log in to the AWS Management Console, 
+    navigate to the EC2 Dashboard, and click on "Launch Instance." 
+    Choose the AMI of your choice (Amazon Linux 2 ), 
+    select an instance type, and configure the instance details.
+    
+    Configure Security Group: 
+  
+    In the "Configure Security Group" section, create a new security group 
+    i.e in edit inbound rules you need to  add SSH, HTTP, HTTPS and assign ipv4 anywhere to them.
+    that allows SSH, HTTP and HTTPS traffic. 
+    This will allow users to access your ReactJS application.
+    
+    Deploying ReactJs Application:
+  
+    After connecting to the EC2 instance, follow these commands,
+    
+    1. Sudo apt update.     --> It will update the package lists for Ubuntu-based Linux distributions.
+    2. git clone https:     --> github.com/<your-git-repo>. // cloning your ReactJS application from your Git repository to the EC2 instance.
+    3. ls                   --> To list the files and directories in the current working directory. 
+    4. cd js                --> It will change the current working directory to a directory named "js" that is located in the current directory.
+    5. Sudo apt install npm --> It will install the Node.js package manager (npm) on an Ubuntu-based Linux system.
+    6. npm i                --> It will install all the dependencies and devDependencies listed in the package.json file.
+    7. npm start            --> It is used to start a Node.js application.
+  
+    After compiling the Webpack successfully,
+    1. Go to the Security groups of the EC2 instance.
+    2. In the inbound rules, add the new inbound rule with the port range of 3000.
+    3. Copy the public Ip url of the instance and paste it on the new tab, also include the port range.
+    4. Public Ip : port range (3000).
+    Then you will see the Amazon interface on the tab.
+    
+    Enabling Cloud monitoring on this instance:
+
+    1. Go to monitoring configuration of the instance.
+    2. Enable the detailed monitoring option.
+    3. In the cloudwatch, select the EC2 option and you will see the detailed monitoring of the instance.

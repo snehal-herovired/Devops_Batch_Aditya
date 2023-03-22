@@ -1,0 +1,61 @@
+Q3. Create an rds connection with ec2 intance and use it to create an sql database and a sample table.
+
+Launching an instance:
+ 
+ 1. First, log in to the AWS Management Console, 
+ 2. navigate to the EC2 Dashboard, and click on "Launch Instance." 
+ 3. Choose the AMI of your choice (Amazon Linux 2 ), 
+ 4. select an instance type, and configure the instance details.
+ 5. Attach vpc and subnet which has internet gateway connection and route table connected to it.
+    
+Configure Security Group: 
+  
+ In the "Configure Security Group" section, create a new security group 
+ i.e in edit inbound rules you need to  add SSH, HTTP, HTTPS and assign ipv4 anywhere to them.
+
+Create an RDS instance
+
+ 1. Go to the Amazon RDS console and click on "Create database"
+ 2. Choose the database engine you want to use (e.g. MySQL, PostgreSQL, etc.)
+ 3. Select the appropriate version and configuration options for your use case
+ 4. Specify a username and password for the database administrator account
+ 5. Choose a VPC and subnet group for the RDS instance
+ 6. Configure the security group to allow incoming traffic from the EC2 instance
+ 7. Connect to the RDS instance from the EC2 instance
+
+Connect to the RDS instance from the EC2 instance
+
+ SSH into the EC2 instance using the key pair associated with the instance
+ Install the database client software for your database engine (e.g. MySQL client for MySQL)
+ Use the client software to connect to the RDS instance using the endpoint, database name, 
+ and database administrator credentials specified during the RDS instance creation
+
+To use the client software, use the following commands.
+
+ 1. Sudo apt-get update.
+ 2. mysql -h [endpoint of database] -P [Port] -u [username] -p [password].
+ 3. Enter the password of the databse adminitrator account.
+
+Create a sample table in the SQL database:
+ 
+ 1. Use the appropriate SQL commands to create a sample table in the connected database.
+
+ For example, if you are using MySQL, you can use the following command:
+  
+ CREATE TABLE sample_table (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  age INT NOT NULL,
+  PRIMARY KEY (id)
+);
+
+
+Verify the table creation:
+
+ 1. Use the appropriate SQL commands to verify that the sample table was created successfully
+  
+    For example, if you are using MySQL, you can use the following command:
+
+    SELECT * FROM sample_table;
+
+ This should display an empty table with the columns "id", "name", and "age".
