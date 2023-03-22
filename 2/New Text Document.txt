@@ -1,0 +1,18 @@
+create ec2 instance and click connect
+give commannds
+sudo apt upadate --> for updating
+git clone <repolink>--> it s clone the repo to the instancesu
+ls --> its shows the what are the files in clone repo
+cd <file name>
+sudo apt install npm
+npm i --> package installation
+npm start
+
+
+if it is not working
+go to ec2 select instance 
+select security and click security groups
+add inbound rule 
+add rule give port number of appliction ,soure is my ip save
+copy public ip 
+enter the public ip with portnumber in new tab

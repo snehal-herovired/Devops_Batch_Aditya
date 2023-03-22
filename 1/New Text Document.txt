@@ -1,0 +1,25 @@
+open ubuntu 
+cd Desktop
+craete floder in desktop
+clone the nodejs application in ubuntu 
+change the directory to nodels files
+install npm
+the main file for the node js is package .json
+and create deploy.sh,checkstatus.sh,test.sh ny
+give primessions 'chmod -x'
+cron jobs : these are list of task which are schduled to be excuted at given time
+* * * * * it is for the task exceut for every minute
+command is crontab -e
+
+
+jenkins
+
+click manage jenkins and select pulgins go to avalible pulgins 
+instal Maven Integration plugin and pipeline Maven Integration plugin
+select items give name and slect pipeline  give descrprtion andeverthingwritepipline code and save
+gnext manage jenkins and slect golbal tool configration 
+   > select add jdk give name
+   > remove install auto and give the path where the download jdk file
+select maven and give maven
+save
+click bulid now

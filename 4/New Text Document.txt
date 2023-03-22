@@ -1,0 +1,10 @@
+
+first go to where the amzon react open CMD from their
+open vs code ,open terminal in the vs cpode write command npm i, npm run build --> the build file is created
+
+next creat s3 bucket 
+ enable static website and un block public acces
+add build file and make public
+
+Object URL
+https://swamy5003333.s3.ap-south-1.amazonaws.com/index.html

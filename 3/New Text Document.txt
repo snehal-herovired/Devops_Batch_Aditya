@@ -1,0 +1,34 @@
+rds
+
+serch rds in the aws
+click creat data base and select easy creat
+select my sql and free tier
+give password and confirm password 
+click creat
+after creation select modify go to connectivity additional settings and give pulic acces--> these can by any one
+select security group add inbound rules
+select my sql , select my ip
+
+note : 1) once vpc is given after we can't change
+       2) public acces we can change      
+
+
+ec2
+create ec2 with same vpc 
+
+note: both are in same vpc
+
+connection 
+
+we can connect two by using ec2/database
+
+by database go to acttio connect ec2
+
+note: both are in same region
+
+
+next go to instane and connect 
+sudo apt update --> for updateing 
+sudo apt install mysql-client--> for installition of sql
+after give end point of the database 
+by using sql commands create table it's shown in the  images
