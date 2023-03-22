@@ -1,0 +1,33 @@
+A.Building a manual CI/CD Pipeline:
+
+1.Code your Java application: Start by coding your Java application and create a Maven project.
+
+2.Create a Git repository: Create a Git repository to store your code.
+
+3.Define your manual pipeline stages: Define your manual CI/CD pipeline stages, such as Build, Test, Deploy.
+
+4.Write a build script: Write a script to compile and package your Java application using Maven. The script should also copy the packaged JAR file to a designated location for deployment.
+
+5.Write a test script: Write a script to test your Java application. For example, you can use the JUnit testing framework.
+
+6.Write a deployment script: Write a script to deploy your Java application to a server or container. For example, you can use a shell script or Dockerfile.
+
+7.Automate your pipeline: Once you have a working manual pipeline, you can automate it using a CI/CD tool like Jenkins.
+
+8.Automating the CI/CD Pipeline with Jenkins:
+
+9.Install and configure Jenkins: Install Jenkins on your server and configure it according to your needs. You'll need to install the necessary plugins for Java and Maven.
+
+B.Create a Jenkins project: Create a new Jenkins project and configure it to pull the code from your Git repository.
+
+1.Define build triggers: Define build triggers for your Jenkins project. For example, you can trigger a build every time a new commit is pushed to the Git repository.
+
+2.Configure your Jenkins build: Configure your Jenkins build by specifying the Maven command to build your Java application and package it into a JAR file.
+
+3.Configure test steps: Configure your Jenkins build to run your test.sh script.
+
+4.Configure deployment steps: Configure your Jenkins build to deploy your Java application using a shell script or Dockerfile.
+
+5.Test your automated pipeline: Test your automated CI/CD pipeline by pushing a new commit to your Git repository and verifying that Jenkins automatically builds, tests, and deploys your Java application.
+
+6.And that's it! You now have a manual CI/CD pipeline for your Java application and have automated it using Jenkins.

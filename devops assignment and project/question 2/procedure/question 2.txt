@@ -1,0 +1,31 @@
+1.Sign in to your AWS Management Console.
+
+2.Navigate to the Amazon EC2 service.
+
+3.Click on the "Launch Instance" button to launch a new EC2 instance.
+
+4.Select an Amazon Machine Image (AMI) that meets your requirements. For example, you can select "ubuntu".
+
+5.Select an instance type that meets your requirements. For example, you can select "t2.micro" which is a low-cost, general-purpose instance type.
+
+6.Configure the instance details, such as network settings and storage, to meet your requirements. You can use the default settings for most options, but be sure to select a VPC and subnet to launch your instance in.
+
+7.Add a tag to your instance to help identify it later.
+
+8.Configure the security group for your instance to allow HTTP traffic on port 80. This will enable users to access your ReactJS application. You can also add rules to allow SSH traffic for remote access.
+
+9.Review the configuration settings and launch your instance.
+
+10.Once the instance is running, SSH into the instance using a tool such as PuTTY or the AWS Systems Manager Session Manager. You will need the instance's public IP address or DNS name to connect.
+
+11.Install the necessary software to run your ReactJS application, such as Node.js and Nginx web server.
+
+12.Upload your ReactJS application files to the instance using a tool such as SCP or SFTP.
+
+13.Configure Nginx to serve your ReactJS application files. You can follow online tutorials for more detailed instructions.
+
+14.Enable CloudWatch monitoring for your instance by adding CloudWatch agent to the instance. You can follow the documentation to set up CloudWatch agent and enable monitoring for your instance.
+
+15After the configuration, the EC2 instance will provide a public IP address that can be used to access the ReactJS application from the internet.
+
+-->ip:address for react app is : http://54.175.236.234/
