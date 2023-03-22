@@ -1,0 +1,6 @@
+ques 4 after that convert the same in automated ci-cd pipeline using jenkins but you have to also use maven for java application.
+
+sol step 1 we have goto the new item and select pipeline and click ok
+step2: go and select the basic hello world java simple program and save and apply
+step3: here we get a another page in this we have to build the simple program application 
+step4: if the program is tested successfully then we check the console output will check
