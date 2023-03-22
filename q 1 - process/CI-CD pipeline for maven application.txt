@@ -1,0 +1,30 @@
+Q1. Build a manual ci-cd pipeline for a java application and also write a simple test.sh for testing , 
+    after that convert the same in automated ci-cd pipeline using jenkins but you have to also use maven for java application.
+
+Create a new repository in github.com and push the jdk file to that repositary.
+
+Here are the steps to build ci-cd pipeline using jenkins with maven,
+
+ 1. Install Jenkins on a server or cloud instance.
+
+ 2. Install the Maven and Git plugins for Jenkins.
+
+ 3. Navigate Global Tool Configuration, give the name and provide the jdk file path.
+
+ 4. Set up a Jenkins job that pulls the code from your Git repository. 
+  
+ 5. Add the Maven and apply the changes to it.
+    
+Now create the create a project,
+
+ 1. Go to Dashboard, click on item, and Enter an item name.
+  
+ 2. Select the pipeline configuration to it.
+
+ 3. select the GitHub project and provide the new repository link which you created.
+
+ 4. Configure the deployment step in your Jenkins job to deploy the Java application to your deployment environment using your deployment script.
+
+ 5. Set up a trigger for your Jenkins job, such as a webhook or a scheduled job, and change the 'Hello' to 'Build' int eh deployment script.
+
+ 5. Now apply the changes and click on the build option and console the output.
