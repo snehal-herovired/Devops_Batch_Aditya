@@ -4,11 +4,9 @@ Amazon EC2 supports On-Demand Instances (the default), Spot Instances, and Reser
 AWS Systems Manager enables you to remotely and securely manage the configuration of your Amazon EC2 instances, 
 and your on-premises instances and virtual machines (VMs) in hybrid environments, including VMs from other cloud providers.
 
-ELASTIC IP ADDRESS:
-An Elastic IP address is a static IPv4 address designed for dynamic cloud computing. An Elastic IP address is allocated to your AWS account, and is yours until you release it. 
-By using an Elastic IP address, you can mask the failure of an instance or software by rapidly remapping the address to another instance in your account.
-
 
 DETAILED MONITORING:
 By default, your instance is enabled for basic monitoring. You can optionally enable detailed monitoring. 
 After you enable detailed monitoring, the Amazon EC2 console displays monitoring graphs with a 1-minute period for the instance.
+
+PUBLIC IP: 44.201.95.116
