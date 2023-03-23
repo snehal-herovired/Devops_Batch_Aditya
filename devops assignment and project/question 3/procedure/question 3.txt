@@ -1,0 +1,15 @@
+1.Launch an EC2 instance: First, launch an Amazon EC2 instance, which will serve as the client from which you will connect to your Amazon RDS instance.
+
+2.Create an RDS instance: Create an Amazon RDS instance with the database engine of your choice (MySQL, PostgreSQL, etc.). Make sure to configure the instance's security group to allow incoming connections from your EC2 instance.
+
+3.Install the database client: Install the database client on your EC2 instance. For example, if you're using MySQL, you can install the MySQL client by running the command: sudo apt-get install mysql-client
+
+4.Connect to the RDS instance: Connect to your RDS instance using the database client installed on your EC2 instance. You'll need to provide the endpoint for your RDS instance, along with the appropriate credentials.
+
+5.Create a database: Once you've connected to your RDS instance, you can create a new database by running an SQL command like: CREATE DATABASE sample_db;
+
+6.Create a sample table: With your database created, you can create a sample table by running an SQL command like: CREATE TABLE sample_table (id INT PRIMARY KEY, name VARCHAR(50));
+
+7.Insert data: You can insert data into your sample table by running an SQL command like: INSERT INTO sample_table (id, name) VALUES ('sai', 'ece'), ('aditya','mech'), ('mani', 'ece');
+
+8.And that's it! You now have an RDS connection with your EC2 instance, and you've created a sample database and table. You can use these as a starting point to develop your own applications that use an RDS database.
