@@ -1,0 +1,22 @@
+###3. Create an rds connection with ec2 instance and use it to create an sql database and a sample table.
+
+create database with database creation method as Easy create and configuration type as MySQL with DB instance size as Free tier and DB instance identifier
+
+1 command:sudo apt-get install mysql-client
+
+
+2 command:mysql -h <RDSendpoint> -u <username> -p
+Here paste the RDS end point while creating database
+Here username default as admin
+
+
+3 command:CREATE DATABASE <database_name>;
+
+
+4 command:USE <database_name>;
+
+
+5 command:CREATE TABLE <table_name> (id INT NOT NULL AUTO_INCREMENT, name VARCHAR(50) NOT NULL, PRIMARY KEY (ID));
+
+
+6 command:INTO <table_name> (name) VALUES ('your name')

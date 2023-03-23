@@ -1,0 +1,43 @@
+##question2
+
+STEP1:
+CREATE AN EC2 INSTANCE WITH UBUNTU.NOW SELECT THE  CREATED EC2 INSTANCE AND CONNECT.
+
+STEP2:
+#Update ubuntu instance
+sudo apt-get update
+
+#Upgrade ubuntu system
+sudo apt-get upgrade
+
+#install ngnix
+sudo apt-get install nginx -y
+
+#nginx version
+nginx -v
+
+#restart nginx
+sudo systemctl restart nginx
+
+#install nodejs ubuntu
+sudo apt-get install curl
+
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
+sudo apt-get install -y nodejs
+
+#reate the react project. (create-react-app)
+npx create-react-app react-tutorial
+
+#Build the react project
+cd react-tutorial
+
+npm run build
+
+#Run the project
+npm start
+
+STEP3: NOW OPEN THE CREATED EC2 INSTANCE GO TO THE SECURITY GROUPS
+EDIT INBOUND SECURITY RULES BY KEEPING THE PORT RANGE 3000 SAVE THE RULES
+NOW COPY THE PUBLIC IP ADDRESS AND PASTE THE IP ADDRESS WITH COLON 3000
+WE CAN OBESERVE THE OUTPUT AS A WEBPAGE.

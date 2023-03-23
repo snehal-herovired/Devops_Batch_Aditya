@@ -1,0 +1,15 @@
+##question4
+STEP-1  :  Create a bucket with unique name.
+STEP-2  :  Select the AWS region as US East(N.Virginia) us-east-1.
+STEP-3  :  Now in Object Ownership select ACLs enabled when we enable the ACL(Access Control List) the objects in the bucket can be owned by other AWS accounts and they can accesss to this bucket and its objects.
+STEP-4  :  Now unblock all the public access to grant any access control list.
+STEP-5  :  Now enable the BUCKET VERSIONING to keeps multiple variants of an object in the same bucket and click on create bucket.
+STEP-6  :  Now a bucket is created with name ‘sucharitha’.
+STEP-7  :  Now upload the reactjs files into the bucket.As shown below:
+STEP-8  :  Now goto the properties of that bucket scroll down and we find ‘Static website hosting’ goto edit option and enable.By enabling the static website hosting then the bucket can host to a website or redirect requests
+STEP-9  :  Now goto Objects and select all uploaded files and then click actions and make all files to ‘make public using ACLs’.
+STEP-10  :  Now copy the URL that provided in static website hosting  
+URL
+STATIC WEBSITE HOSTING
+(http://sucharitha.s3-website-us-east-1.amazonaws.com)
+STEP-11  :  Paste the URL then we will see the page as follow.
